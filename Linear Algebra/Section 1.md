@@ -1,4 +1,5 @@
 # Section 1.1 Systems of Linear Equations
+## 01-10-2023
 * A linear equation in the variables $x_1, \dots, x_n$ is an equation that can be written in the form $$a_1x_1 + a_2x_2 + \cdots + a_nx_n = b$$where $b$ and the coefficients $a_1, \dots, a_n$ are real or complex numbers that are usually known in advance.
 
 * A system of linear equations is a collection of one or more linear equations involving the same variables $x_1, \dots, x_n$.
@@ -152,3 +153,87 @@ $$
 \end{array}
 $$
 $\boxed{x_1 = 2, x_2 = 2, x_3 = 0}$
+
+## 01-11-2023
+##### Elementary Row Operations:
+* Elementary row operations include the following:
+	1) (Replacement) Replace one row by the sum of itself and a multiple of another row.
+	2) Interchange two rows.
+	3) (Scaling) Multiply all entries in a row by a nonzero constant.
+ * Two matrices are called row equivalent if there is a sequence of elementary row operations that transform one matrix into the other.
+ * It is important to note that row operations are reversible.
+ * If the augmented matrices of two linear systems are row equivalent, then the two systems have the same solution set.
+ * Two fundamental questions about a linear system are as follows:
+	 1) Is the system consistent; that is, does at least one solution exist?
+	 2) If a solution exists, is it the only one; that is the solution unique?
+
+**Example 4**:
+Determine  if the following system is consistent
+$$
+\begin{gather*}
+	x_{2}-4x_{3}=8\\
+	2x_{1}-3x_{2}+2x_{3}=1\\
+	3x_{1}-8x_{2}+7x_{3}=1
+\end{gather*}
+$$
+$$
+\begin{bmatrix}
+	0 & 1 & -4 & | & 8 \\
+	2 & -3 & 2 & | & 1 \\
+	5 & -8 & 7 & | & 1
+\end{bmatrix}
+$$
+$$
+\begin{bmatrix}
+2 & -3 & 2 & 1 \\
+0 & 1 & -4 & 8 \\
+5 & -8 & 7 & 1
+\end{bmatrix}
+$$
+$$
+\begin{bmatrix}
+2 & -3 & 2 & 1 \\
+0 & 1 & -4 & 8 \\
+0 & 0 & 0 & \frac 52
+\end{bmatrix}
+$$
+$0 \neq \frac 52 \Longrightarrow$ system is inconsistent.
+
+$$
+\begin{gather*}
+x_{1}-2x_{4}=-3\\
+2x_{2}+2x_{3}=0\\
+x_{3}+3x_{4}=1\\
+-2x_{1}+3x_{2}+2x_{3}+x_{4}=5
+\end{gather*}
+$$
+
+$$
+\begin{array}{cc}
+\begin{bmatrix}
+1 & 0 & 0 & -2 & -3 \\
+0 & 2 & 2 & 0 & 0 \\
+0 & 0 & 1 & 3 & 1 \\
+-2 & 3 & 2 & 1 & 5
+\end{bmatrix} & \frac{R_{2}}{2} \\
+\begin{bmatrix}
+1 & 0 & 0 & -2 & -3 \\
+0 & 1 & 1 & 0 & 0 \\
+0 & 0 & 1 & 3 & 1 \\
+-2 & 3 & 2 & 1 & 5
+\end{bmatrix} & R_{4} = R_{4}+2R_{1}-3R_{2} \\
+\begin{bmatrix}
+1 & 0 & 0 & -2 & -3 \\
+0 & 1 & 1 & 0 & 0 \\
+0 & 0 & 1 & 3 & 1 \\
+0 & 0 & -1 & -3 & -1
+\end{bmatrix} & R_4 = R_4+R_{3} \\
+\begin{bmatrix}
+1 & 0 & 0 & -2 & -3 \\
+0 & 1 & 1 & 0 & 0 \\
+0 & 0 & 1 & 3 & 1 \\
+0 & 0 & 0 & 0 & 0 
+\end{bmatrix} & R_4 = R_4+R_{3} \\
+\end{array}
+$$ 
+infinte solutions $\Longrightarrow$ consistent

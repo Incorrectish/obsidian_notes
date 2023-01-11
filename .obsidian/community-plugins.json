@@ -2,5 +2,12 @@
   "obsidian-functionplot",
   "table-editor-obsidian",
   "obsidian-git",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "obsidian-annotator",
+  "calendar",
+  "obsidian-reminder-plugin",
+  "obsidian-kanban",
+  "obsidian-excalidraw-plugin",
+  "nldates-obsidian",
+  "dataview"
 ]
