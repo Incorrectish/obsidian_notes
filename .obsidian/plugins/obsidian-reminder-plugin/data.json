@@ -1,18 +1,11 @@
 {
   "scanned": true,
   "reminders": {
-    "Daily/Kanban.md": [
+    "Daily/2023-01-11-kanban.md": [
       {
-        "title": "meeting",
+        "title": "- [x] meeting",
         "time": "2023-01-11 15:45",
-        "rowNumber": 8
-      }
-    ],
-    "Daily/2023-01-11.md": [
-      {
-        "title": "meeting",
-        "time": "2023-01-11 15:55",
-        "rowNumber": 0
+        "rowNumber": 16
       }
     ]
   },

@@ -2,12 +2,14 @@
   "obsidian-functionplot",
   "table-editor-obsidian",
   "obsidian-git",
-  "obsidian-latex-suite",
   "obsidian-annotator",
   "calendar",
   "obsidian-reminder-plugin",
   "obsidian-kanban",
   "obsidian-excalidraw-plugin",
   "nldates-obsidian",
-  "dataview"
+  "dataview",
+  "templater-obsidian",
+  "obsidian-latex-suite",
+  "obsidian-tasks-plugin"
 ]

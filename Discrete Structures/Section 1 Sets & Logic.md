@@ -39,7 +39,7 @@
 * *set difference*: $A = \{1, 2, 5, 7, 8\}$, $B = \{1, 2, 3\}$
 	* $A - B = \{5, 7, 8\}$
 	* $= \{A \in B \mid A \notin B\}$
- 
+	 
 ###  Venn Diagrams
 * ![[Venn Diagrams 2023-01-11 09.51.04.excalidraw]]
 

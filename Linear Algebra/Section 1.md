@@ -236,4 +236,19 @@ $$
 \end{bmatrix} & R_4 = R_4+R_{3} \\
 \end{array}
 $$ 
-infinte solutions $\Longrightarrow$ consistent
+**Example**:
+Determine the value of $h$ such that the matrix is the augmented matrix of a consistent linear system.
+$$
+\begin{bmatrix}
+1 & 3 & -2 \\
+-4 & h & 8
+\end{bmatrix}
+$$
+
+$$
+\begin{bmatrix}
+1 & 3 & -2 \\
+0 & h + 12 & 0
+\end{bmatrix}
+$$
+$h + 12 = 0 \Longrightarrow \boxed{h = -12}$

@@ -8,8 +8,10 @@
     "downscalePercent": 100
   },
   "autoPairBrackets": true,
-  "autoPairMarkdown": false,
+  "autoPairMarkdown": true,
   "showLineNumber": true,
   "rightToLeft": false,
-  "spellcheck": true
+  "spellcheck": true,
+  "useTab": true,
+  "tabSize": 4
 }
